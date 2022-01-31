@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-31T20:25:42 IST" name="Suite" finished-at="2022-01-31T20:26:11 IST" duration-ms="29041">
+    <groups>
+    </groups>
+    <test started-at="2022-01-31T20:25:42 IST" name="Test" finished-at="2022-01-31T20:26:11 IST" duration-ms="29041">
+      <class name="PractiseOfTestNg.DemoDataProvider">
+        <test-method signature="checkData(java.lang.String,java.lang.String)[pri:0, instance:PractiseOfTestNg.DemoDataProvider@7fa98a66]" started-at="2022-01-31T20:25:42 IST" name="checkData" data-provider="LoginData" finished-at="2022-01-31T20:25:57 IST" duration-ms="14898" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[fff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkData -->
+        <test-method signature="checkData(java.lang.String,java.lang.String)[pri:0, instance:PractiseOfTestNg.DemoDataProvider@7fa98a66]" started-at="2022-01-31T20:25:57 IST" name="checkData" data-provider="LoginData" finished-at="2022-01-31T20:26:11 IST" duration-ms="14080" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ggg]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gdfdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkData -->
+      </class> <!-- PractiseOfTestNg.DemoDataProvider -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
