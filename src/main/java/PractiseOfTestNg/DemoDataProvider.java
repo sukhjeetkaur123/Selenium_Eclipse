@@ -24,7 +24,8 @@ public class DemoDataProvider {
 
 
 @Test(dataProvider="LoginData")
-   void checkData(String name,String pass) {
+   void checkData(String name,String pass)
+{
 	System.setProperty("webdriver.chrome.driver", "C:\\Users\\SukhjeetKaur\\Downloads\\chromedriver.exe");
     driver = new ChromeDriver();
     driver.get("https://opensource-demo.orangehrmlive.com/");

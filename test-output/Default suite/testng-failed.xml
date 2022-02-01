@@ -3,22 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="PractiseOfTestNg.HomePageTest">
+      <class name="PractiseOfTestNg.DemoParaMeterAnnotation">
         <methods>
-          <include name="verifyHomePage"/>
-          <include name="logOut"/>
-          <include name="closeDriver"/>
-          <include name="launchBrowser"/>
+          <include name="getValueFormXml"/>
         </methods>
-      </class> <!-- PractiseOfTestNg.HomePageTest -->
-      <class name="PractiseOfTestNg.LoginTest">
-        <methods>
-          <include name="login"/>
-          <include name="closeDriver"/>
-          <include name="forgetPassword"/>
-          <include name="launchBrowser"/>
-        </methods>
-      </class> <!-- PractiseOfTestNg.LoginTest -->
+      </class> <!-- PractiseOfTestNg.DemoParaMeterAnnotation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

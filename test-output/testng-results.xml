@@ -1,45 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-31T20:25:42 IST" name="Suite" finished-at="2022-01-31T20:26:11 IST" duration-ms="29041">
+  <suite started-at="2022-02-01T20:35:17 IST" name="Suite" finished-at="2022-02-01T20:35:17 IST" duration-ms="189">
     <groups>
+      <group name="Group B">
+        <method signature="Groups.testcase2()[pri:0, instance:PractiseOfTestNg.Groups@294425a7]" name="testcase2" class="PractiseOfTestNg.Groups"/>
+        <method signature="Groups.testcase3()[pri:0, instance:PractiseOfTestNg.Groups@294425a7]" name="testcase3" class="PractiseOfTestNg.Groups"/>
+      </group> <!-- Group B -->
+      <group name="Group A">
+        <method signature="Groups.testcase2()[pri:0, instance:PractiseOfTestNg.Groups@294425a7]" name="testcase2" class="PractiseOfTestNg.Groups"/>
+      </group> <!-- Group A -->
     </groups>
-    <test started-at="2022-01-31T20:25:42 IST" name="Test" finished-at="2022-01-31T20:26:11 IST" duration-ms="29041">
-      <class name="PractiseOfTestNg.DemoDataProvider">
-        <test-method signature="checkData(java.lang.String,java.lang.String)[pri:0, instance:PractiseOfTestNg.DemoDataProvider@7fa98a66]" started-at="2022-01-31T20:25:42 IST" name="checkData" data-provider="LoginData" finished-at="2022-01-31T20:25:57 IST" duration-ms="14898" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[abc]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[fff]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2022-02-01T20:35:17 IST" name="Group A" finished-at="2022-02-01T20:35:17 IST" duration-ms="14">
+    </test> <!-- Group A -->
+    <test started-at="2022-02-01T20:35:17 IST" name="Group B" finished-at="2022-02-01T20:35:17 IST" duration-ms="66">
+      <class name="PractiseOfTestNg.Groups">
+        <test-method signature="testcase2()[pri:0, instance:PractiseOfTestNg.Groups@294425a7]" started-at="2022-02-01T20:35:17 IST" name="testcase2" finished-at="2022-02-01T20:35:17 IST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkData -->
-        <test-method signature="checkData(java.lang.String,java.lang.String)[pri:0, instance:PractiseOfTestNg.DemoDataProvider@7fa98a66]" started-at="2022-01-31T20:25:57 IST" name="checkData" data-provider="LoginData" finished-at="2022-01-31T20:26:11 IST" duration-ms="14080" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ggg]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[gdfdf]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- testcase2 -->
+        <test-method signature="testcase3()[pri:0, instance:PractiseOfTestNg.Groups@294425a7]" started-at="2022-02-01T20:35:17 IST" name="testcase3" finished-at="2022-02-01T20:35:17 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkData -->
-      </class> <!-- PractiseOfTestNg.DemoDataProvider -->
-    </test> <!-- Test -->
+        </test-method> <!-- testcase3 -->
+      </class> <!-- PractiseOfTestNg.Groups -->
+    </test> <!-- Group B -->
   </suite> <!-- Suite -->
 </testng-results>
