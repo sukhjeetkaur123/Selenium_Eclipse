@@ -25,7 +25,8 @@ public class WorkBookDemoSeesion {
 			WebDriver driver = new ChromeDriver();
 			 driver.get("https://opensource-demo.orangehrmlive.com/");
 			 driver.manage().window().maximize();
-		 path =System.getProperty("user.dir")+"//TestLoginData/ready.xlsx";
+	 path =System.getProperty("user.dir")+"//TestLoginData/ready.xlsx";
+//			 path = System.getProperty("‪C:\\Users\\SukhjeetKaur\\Downloads\\ready.xlsx");
 		FileInputStream f1 = new FileInputStream(path);
 		XSSFWorkbook wr = new XSSFWorkbook(f1);
 		XSSFSheet sh = wr.getSheetAt(0);
